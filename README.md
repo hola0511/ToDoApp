@@ -15,8 +15,8 @@ atributos: `code_id (int)`, `title (str)`, `description (str)`, `completed (bool
 `title` y `description` para inicializar los atributos correspondientes.
 El atributo `completed` inicialícelo en `False` y el atributo `tags` inicialícelo
 como una lista vacía. 
-2. En la clase `Todo`, defina un método de instancia `mark_completed` en el 
-cual se cambia el valor del atributo `completed` a `True`.** 
+**2. En la clase `Todo`, defina un método de instancia `mark_completed` en el 
+cual se cambia el valor del atributo `completed` a `True`.**** 
 3. En la clase `Todo` defina un método `add_tag` que recibe como parámetro 
 un string `tag`. En el método debe verificar si el `tag` no se encuentra en la lista `tags`, entonces
 lo debe agregar. 

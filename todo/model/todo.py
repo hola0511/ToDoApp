@@ -14,9 +14,7 @@ class Todo:
     def add_tag(self, tag: str):
         for i in self.tags:
             if tag != self.tags[i-1]:
-
-
-
+                pass
 
 
 class TodoBook:
