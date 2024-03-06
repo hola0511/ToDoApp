@@ -9,14 +9,14 @@ aplicación es el siguiente:
 El código de la aplicación se encuentra incompleto, la idea es completarlo
 teniendo en cuenta los siguientes pasos.
 
-1. En el módulo **todo.py**, cree una clase `Todo` que tenga los siguientes 
+**1. En el módulo **todo.py**, cree una clase `Todo` que tenga los siguientes 
 atributos: `code_id (int)`, `title (str)`, `description (str)`, `completed (bool)`,
 `tags (list[str])`. En el método inicializador reciba los parámetros `code_id`,
 `title` y `description` para inicializar los atributos correspondientes.
 El atributo `completed` inicialícelo en `False` y el atributo `tags` inicialícelo
 como una lista vacía. 
 2. En la clase `Todo`, defina un método de instancia `mark_completed` en el 
-cual se cambia el valor del atributo `completed` a `True`. 
+cual se cambia el valor del atributo `completed` a `True`.** 
 3. En la clase `Todo` defina un método `add_tag` que recibe como parámetro 
 un string `tag`. En el método debe verificar si el `tag` no se encuentra en la lista `tags`, entonces
 lo debe agregar. 
