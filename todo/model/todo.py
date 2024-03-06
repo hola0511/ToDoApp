@@ -23,7 +23,7 @@ class Todo:
 class TodoBook:
 
     def __init__(self):
-        self.todos: dict[int, Todo] = []
+        self.todos: dict = {int, Todo}
 
     def add_todo(self, title: str, description: str) -> int:
         pass
@@ -34,4 +34,5 @@ class TodoBook:
     def completed_todos(self) -> list[Todo]:
         pass
 
-    def tags_todo_count(self) -> dict[str,int]:
+    def tags_todo_count(self) -> dict[str, int]:
+        pass
