@@ -17,12 +17,12 @@ El atributo `completed` inicialícelo en `False` y el atributo `tags` inicialíc
 como una lista vacía. 
 **2. En la clase `Todo`, defina un método de instancia `mark_completed` en el 
 cual se cambia el valor del atributo `completed` a `True`.**** 
-3. En la clase `Todo` defina un método `add_tag` que recibe como parámetro 
+**3. En la clase `Todo` defina un método `add_tag` que recibe como parámetro 
 un string `tag`. En el método debe verificar si el `tag` no se encuentra en la lista `tags`, entonces
-lo debe agregar. 
-4. En la clase `Todo`, defina el método especial `__str__` que retorna un string.
+lo debe agregar.** 
+**4. En la clase `Todo`, defina el método especial `__str__` que retorna un string.
 Este método debe retornar un string que contenga el código del todo y el
-título, de la siguiente forma "code_id - title".
+título, de la siguiente forma "code_id - title".**
 5. En el módulo **todo.py**, cree una clase `TodoBook` la cual tiene un atributo
 `todos` que es un diccionario donde la clave son enteros y los valores son objetos
 de la clase `Todo`. En el método inicializador, inicialice el atributo `todos` como

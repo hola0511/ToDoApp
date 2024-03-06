@@ -1,6 +1,5 @@
 class Todo:
 
-
     def __init__(self, code_id: int, title: str, description: str):
         self.code_id: int = code_id
         self.title: str = title
@@ -12,12 +11,14 @@ class Todo:
         self.completed = True
 
     def add_tag(self, tag: str):
-        for i in self.tags:
-            if tag != self.tags[i-1]:
-                pass
+        if tag not in self.tags:
+            self.tags.append(tag)
+        else:
+            print("el elemento ya esta en la lista")
+
+    def __str__(self):
+        return print(self.code_id, " - ", self.title)
 
 
 class TodoBook:
     pass
-
-
